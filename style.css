@@ -198,3 +198,10 @@ font-size: 26px;
   border-radius: 10px;
   font-size: 20px;
 }
+
+.section-five{
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 40px;
+  text-align: center;
+}
