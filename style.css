@@ -1,6 +1,10 @@
 body{
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   margin: 0;
+}
+
+a, .hero-button, .footer-button{
+  cursor: pointer;
 }
 
 .section-one{
@@ -34,14 +38,13 @@ body{
 
 .main-one{
   display: flex;
-  flex-basis: 100%;
   justify-content: space-around;
   padding: 100px;
+  gap:80px;
 }
 
 .left-main{
-  height: 400px;
-  width: 400px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,10 +54,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .hero-title{
-  font-size: 48px;
+  font-size: 54px;
   color: #F9FAF8;
   font-weight: 900;
 }
@@ -62,6 +66,7 @@ body{
 .hero-subtitle{
   color: #E5E7EB;
   margin-top: 5px;
+  font-size: 18px;
 }
 
 .hero-button{
@@ -73,6 +78,7 @@ body{
   padding: 10px 30px;
   border-radius: 10px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .hero-placeholder{
@@ -90,8 +96,7 @@ padding: 100px;
   color: #1F2937;
   font-weight: 900;
   align-self: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 80px;
 }
 
 .main-second{
@@ -114,7 +119,7 @@ padding: 100px;
   height: 200px;
   background-color: white;
   border-radius: 20px;
-  border: solid, 5px, #3882F6;
+  border: 5px solid #3882F6;
 }
 
 .info-subinfo{
@@ -128,7 +133,6 @@ font-size: 26px;
   background-color:#E5E7EB;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 170px;
   flex-direction: column;
 }
@@ -139,7 +143,6 @@ font-size: 26px;
   font-size: 36px;
   color: #1F2937;
   max-width: 1000px;
-  text-align: start;
 }
 
 .quote-author{
@@ -188,7 +191,7 @@ font-size: 26px;
 }
 
 .footer-button{
-  border: solid, 3px, white;
+  border: 3px solid white;
   background-color: #3882F6;
   color: white;
   padding: 10px 35px;
