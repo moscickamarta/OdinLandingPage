@@ -1,0 +1,33 @@
+body{
+  font-family: Roboto;
+  margin: 0;
+}
+
+.section-one{
+  background-color: #1F2937;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.header{
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-right{
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+.header-left{
+  font-weight: bold;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
